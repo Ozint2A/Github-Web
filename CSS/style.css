@@ -1,13 +1,13 @@
 h1 {
   color: antiquewhite;
+  font-size: 45px;
 }
 h2 {
   color: antiquewhite;
+  font-size: 30px;
 }
 body {
-  background-color: blueviolet;
+  background-color: #787b80;
   color: antiquewhite;
-}
-strong {
-  color: black;
+  font-size: 20px;
 }
