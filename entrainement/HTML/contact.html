@@ -3,11 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <a href="index.html">Accueil</a>
     <a href="about.html">A propos de Peugeot</a>
+    <br />
+    <form action="https://httpbin.org/post" method="post">
+      <label for="#nom">Nom</label>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom" />
+      <br />
+      <label for="#prenom">Prenom</label>
+      <input type="text" id="prenom" name="prenom" placeholder="Votre prenom" />
+      <br />
+      <label for="#email">Nom</label>
+      <input type="text" id="email" name="email" placeholder="Votre email" />
+
+      <select name="sports" id="sports">
+        <option value="foot">foot</option>
+        <option value="basket">basket</option>
+        <option value="natation">natation</option>
+        <option value="rien">je fait pas de sport</option>
+      </select>
+      <button type="submit">ok</button>
+    </form>
   </body>
 </html>
