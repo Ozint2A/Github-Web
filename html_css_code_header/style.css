@@ -1,32 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Pacifico&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inconsolata", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
 }
 
 h1 {
-    color: red;
-    background-color: lightcoral;
-    display: block;
-    width: 400px;
-    border: 2px solid black;
-    border-color: red;
-    border-width: 4px;
-    border-style: groove;
-    /* border-radius: 20px; */
-    padding: 20px 50px;
-    margin: 20px 0 0 40px;
+  color: red;
+  background-color: lightcoral;
+  display: block;
+  width: 400px;
+  border: 2px solid black;
+  border-color: red;
+  border-width: 4px;
+  border-style: groove;
+  /* border-radius: 20px; */
+  padding: 20px 50px;
+  margin: 20px 0 0 40px;
 }
 
 h2 {
-    background-color: lightblue;
-    display: inline-block;
-    width: 600px;
-    margin-top: 30px;
-    text-align: center;
+  background-color: lightblue;
+  display: inline-block;
+  width: 600px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 /* a {
@@ -35,71 +35,80 @@ h2 {
 } */
 
 .parent {
-    background-color: lightblue;
-    width: 50vw; /* vw : view width */
-    height: 75vh; /* vw : view height */
+  background-color: lightblue;
+  width: 50vw; /* vw : view width */
+  height: 75vh; /* vw : view height */
 
-    /* flex-direction: row; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  /* flex-direction: row; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .enfant {
-    width: 25%;
-    height: 25%;
-    background-color: lightcoral;
+  width: 25%;
+  height: 25%;
+  background-color: lightcoral;
 }
 
 .enfant:first-child {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .enfant:last-child {
-    background-color: lightgoldenrodyellow;
-    /* align-self: flex-end; */
+  background-color: lightgoldenrodyellow;
+  /* align-self: flex-end; */
 }
 
 header {
-    background-color: lightgreen;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #9b9b93;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    border-bottom: 2px solid green;
+  border-bottom: 2px solid #002642;
 
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-header h3 {
-    text-transform: uppercase;
-    font-family: "Pacifico", cursive;
+header h3 a {
+  text-transform: uppercase;
+  font-family: "monospace", cursive;
 }
-
+header h3 a:hover {
+  color: white;
+  text-decoration: underline;
+}
 nav {
-    /* background-color: lightcoral; */
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 header nav a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: #002642;
 
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-
+header h3 a {
+  text-decoration: none;
+  color: #002642;
+}
 header nav a:hover {
-    color: green;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 svg {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
+}
+body {
+  background-color: #9b9b93;
 }
