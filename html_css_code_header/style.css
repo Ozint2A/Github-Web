@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Pacifico&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+h1 {
+    color: red;
+    background-color: lightcoral;
+    display: block;
+    width: 400px;
+    border: 2px solid black;
+    border-color: red;
+    border-width: 4px;
+    border-style: groove;
+    /* border-radius: 20px; */
+    padding: 20px 50px;
+    margin: 20px 0 0 40px;
+}
+
+h2 {
+    background-color: lightblue;
+    display: inline-block;
+    width: 600px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* a {
+    background-color: lightgreen;
+    display: inline;
+} */
+
+.parent {
+    background-color: lightblue;
+    width: 50vw; /* vw : view width */
+    height: 75vh; /* vw : view height */
+
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.enfant {
+    width: 25%;
+    height: 25%;
+    background-color: lightcoral;
+}
+
+.enfant:first-child {
+    background-color: lightgreen;
+}
+
+.enfant:last-child {
+    background-color: lightgoldenrodyellow;
+    /* align-self: flex-end; */
+}
+
+header {
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid green;
+
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header h3 {
+    text-transform: uppercase;
+    font-family: "Pacifico", cursive;
+}
+
+nav {
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header nav a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}

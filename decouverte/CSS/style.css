@@ -3,13 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  gap: 10px;
+}
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+svg {
+  width: 80px;
+  margin: 0;
+}
 #titre-principal {
   color: #e9ecf5;
+  margin: 0;
 }
-.titre {
-  color: #e9ecf5;
-}
+
 body {
   background-color: #ae76a6;
 }
@@ -19,10 +36,4 @@ p {
   border-radius: 10px;
   padding: 10px 10px;
   text-align: justify;
-}
-p span {
-  font-size: 16px;
-  font-weight: bold;
-  color: #e9ecf5;
-  font-style: italic;
 }
