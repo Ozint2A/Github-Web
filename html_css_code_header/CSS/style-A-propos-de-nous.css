@@ -7,23 +7,25 @@
   font-family: "Saira+Extra+Condensed", monospace;
 }
 
-main {
+.main {
   padding: 20px;
 }
-main p {
-  color: #00a19b;
+.main p {
+  color: black;
   font-size: 18px;
+  text-indent: 2em;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
 }
 
-main h1 {
+.main h1 {
   margin-bottom: 30px;
 }
 
 #A45 {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* background-color: red; */
   gap: 10px;
   align-items: center;
 }
@@ -57,18 +59,11 @@ main h1 {
 }
 
 h1 {
-  color: #00a19b;
+  color: black;
   display: flex;
   justify-content: center;
   font-size: 30px;
   border-top: 50px;
-  /* width: 20px; */
-  /* border: 2px solid black;
-  border-color: red; 
-  /* border-style: groove; */
-  /* border-radius: 20px; */
-  /* padding: 20px 50px;
-  margin: 20px 0 0 40px; */
 }
 
 h2 {
@@ -83,32 +78,6 @@ a {
   display: inline;
   font-size: 16px;
 }
-
-/* .parent {
-  background-color: lightblue;
-  width: 50vw; /* vw : view width */
-/* height: 75vh; vw : view height */
-
-/* flex-direction: row; */
-/* display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-} */
-
-/* .enfant {
-  width: 25%;
-  height: 25%;
-  background-color: lightcoral; */
-/* } */
-
-/* .enfant:first-child {
-  background-color: lightgreen;
-}
-
-.enfant:last-child {
-  background-color: lightgoldenrodyellow;
-  /* align-self: flex-end; */
 
 header {
   background-color: #c8ccce;
@@ -127,6 +96,7 @@ header {
 button {
   width: 30px;
   display: none;
+  background-color: #c8ccce;
 }
 
 header h3 a {
@@ -142,8 +112,12 @@ header h3 a:hover {
 
 .bas-de-page a {
   text-decoration: none;
-  color: #00a19b;
+  color: black;
   padding: 20px;
+}
+.bas-de-page a:hover {
+  color: #00a19b;
+  text-decoration: underline;
 }
 
 nav {
@@ -166,7 +140,7 @@ header h3 a svg {
 }
 
 header nav a:hover {
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -176,7 +150,7 @@ nav a svg {
 }
 
 body {
-  background-color: #c8ccce;
+  background-color: white;
 }
 
 @media screen and (max-width: 700px) {

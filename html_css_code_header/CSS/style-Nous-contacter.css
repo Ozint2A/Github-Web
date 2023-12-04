@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Saira+Extra+Condensed", monospace;
+}
+
+.main {
+  padding: 20px;
+}
+.main p {
+  color: black;
+  font-size: 18px;
+  text-indent: 2em;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+}
+
+.main h1 {
+  margin-bottom: 30px;
+}
+
+#A45 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.para {
+  display: flex;
+  justify-self: baseline;
+}
+
+.int {
+  width: 100%;
+  display: flex;
+}
+
+.int img {
+  width: 50%;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#face {
+  width: 664px;
+  height: 443px;
+  padding: 20px;
+}
+
+#arriere {
+  width: 664px;
+  height: 443px;
+  padding: 10px;
+}
+
+h1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  border-top: 50px;
+}
+
+h2 {
+  background-color: lightblue;
+  display: inline-block;
+  width: 600px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  display: inline;
+  font-size: 16px;
+}
+
+header {
+  background-color: #c8ccce;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  border-bottom: 2px solid rgb(0, 163, 158);
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+  width: 30px;
+  display: none;
+  background-color: #c8ccce;
+}
+
+header h3 a {
+  text-transform: uppercase;
+  font-family: "monospace", cursive;
+  text-decoration: none;
+  color: #00a19b;
+}
+header h3 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.bas-de-page a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.bas-de-page a:hover {
+  color: #00a19b;
+  text-decoration: underline;
+}
+
+nav {
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #00a19b;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header h3 a svg {
+  width: 250px;
+}
+
+header nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav a svg {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  button {
+    display: inline;
+  }
+  nav {
+    display: none;
+  }
+}
