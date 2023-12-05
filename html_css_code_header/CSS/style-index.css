@@ -28,11 +28,13 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  border-bottom: 2px solid rgb(0, 163, 158);
 }
-
-.para {
+#A45-bas {
   display: flex;
-  justify-self: baseline;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 
 .int {
