@@ -1,5 +1,7 @@
 body {
   background-image: url("peinture.015a9ecb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   margin: 0;
   padding: 0;

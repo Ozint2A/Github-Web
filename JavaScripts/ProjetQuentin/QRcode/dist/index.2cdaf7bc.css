@@ -1,0 +1,56 @@
+body {
+  background-image: url("image.f8991730.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#input {
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+#btn, #refresh, #save {
+  color: #fff;
+  cursor: pointer;
+  background-color: #008cba;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#imageresultat {
+  text-align: center;
+  margin: 50px auto;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #716969;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  transition-duration: .4s;
+}
+
+button:hover {
+  color: #716969;
+  background-color: #fff;
+  box-shadow: 0 10px 10px #716969;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

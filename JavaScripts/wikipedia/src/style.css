@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../img/peinture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
 }
 
