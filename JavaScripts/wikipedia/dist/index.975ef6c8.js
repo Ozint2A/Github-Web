@@ -4680,7 +4680,9 @@ var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
 var _axiosHeadersJs = require("./AxiosHeaders.js");
 var _axiosHeadersJsDefault = parcelHelpers.interopDefault(_axiosHeadersJs);
 "use strict";
-const headersToObject = (thing)=>thing instanceof (0, _axiosHeadersJsDefault.default) ? thing.toJSON() : thing;
+const headersToObject = (thing)=>thing instanceof (0, _axiosHeadersJsDefault.default) ? {
+        ...thing
+    } : thing;
 function mergeConfig(config1, config2) {
     // eslint-disable-next-line no-param-reassign
     config2 = config2 || {};
@@ -4829,7 +4831,7 @@ exports.default = {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "VERSION", ()=>VERSION);
-const VERSION = "1.6.7";
+const VERSION = "1.6.8";
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"45wzn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
