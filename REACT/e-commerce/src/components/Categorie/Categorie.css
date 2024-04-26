@@ -1,0 +1,22 @@
+.categorie-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 120px;
+}
+.categorie-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.categorie-card {
+  display: flex;
+  gap: 44px;
+  padding-top: 10px;
+}
+.categorie-titre {
+  font-weight: 500;
+  font-size: 56px;
+  text-align: start;
+}

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.nav_links li {
+  display: inline-block;
+}

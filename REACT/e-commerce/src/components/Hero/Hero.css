@@ -1,0 +1,27 @@
+.hero-text {
+  font-weight: 900;
+  font-size: 86px;
+  text-align: start;
+  line-height: 96px;
+}
+
+.hero {
+  display: flex;
+  padding: 100px;
+  padding-bottom: 0;
+  gap: 24px;
+  background-color: rgba(73, 30, 75, 0.4);
+  border-radius: 60px;
+}
+.hero img {
+  display: block;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}

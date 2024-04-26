@@ -1,0 +1,28 @@
+.card img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.card-description {
+  display: flex;
+  justify-content: space-between;
+}
+.marque {
+  color: #000c22;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  opacity: 0.5;
+}
+.texte-card {
+  font-weight: 500;
+  font-size: 24px;
+}

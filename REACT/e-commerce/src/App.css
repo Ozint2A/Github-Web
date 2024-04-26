@@ -1,0 +1,67 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 96px;
+}
+.produits_titre {
+  font-weight: 500;
+  font-size: 56px;
+}
+.produits_link {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.produits-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+.produits_body {
+  display: flex;
+  padding-top: 50px;
+  gap: 24px;
+}
+
+.details_image {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.details_image img {
+  display: block;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.details_tout {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
+}
+.label {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 12, 34, 0.5);
+}
+
+.details_marque {
+  font-weight: 500;
+  font-size: 36px;
+}
+.details_prix {
+  font-weight: 500;
+  font-size: 64px;
+}
+.details_description {
+  font-weight: 400;
+  font-size: 16px;
+}
+.details_infos {
+  display: flex;
+  flex-direction: column;
+}
