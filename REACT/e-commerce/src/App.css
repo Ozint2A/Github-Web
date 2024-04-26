@@ -20,6 +20,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
+.categoriePage_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
 .produits_body {
   display: flex;
   padding-top: 50px;

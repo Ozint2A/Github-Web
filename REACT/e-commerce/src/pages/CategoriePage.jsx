@@ -26,7 +26,7 @@ function CategoriePage() {
     <div className="container">
       <h1 className="produits_titre">{category}</h1>
       <div className="produits_body">
-        <div className="categorie_card">
+        <div className="categoriePage_card">
           {produits.map((produit) => (
             <Card key={produit.id} card={produit} />
           ))}
